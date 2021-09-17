@@ -4,9 +4,7 @@ import {withRouter} from 'react-router-dom';
 
 
 const MenuItem = ({id,title,price,description,category,image, rating, history, match}) => {
-    // console.log(match);
-    // console.log(history);
-    // console.log(location);
+ 
   return(
     <tr className="content">        
       <td className="col-1">{id}</td>
